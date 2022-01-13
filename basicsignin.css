@@ -1,0 +1,134 @@
+*{
+    font-family: sans-serif;  
+    height: 100%;
+}
+body{
+    background-image: url("bgk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 320px;
+    height: 500px;
+    background: #63627a;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 58px 30px;
+    border-radius: 20px;
+
+}
+.container2{
+    width: 320px;
+    height: 344px;
+    background: #63627a;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 58px 30px;
+    border-radius: 20px;
+
+}
+.container3{
+    width: 320px;
+    height: 263px;
+    background: #63627a;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 58px 30px;
+    border-radius: 20px;
+
+}
+.sd{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    height: 20px;
+}
+.container p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    height: 20px;
+}
+.container input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.container input[type="text"],input[type="password"],input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.container input[type="submit"], input[type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.container input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ff0800;
+    color: #000
+}
+.container input[type="button"]:hover{
+    cursor: pointer;
+    background: #ff0800;
+    color: #000
+}
+.link{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+    padding-left: 20px;
+}
+.container a:hover{
+    color: #ff0800;
+}
+hr{
+    height: 0%;
+    width: 80%;
+}
+.or{
+    position: absolute;
+    top: 156px;
+    left: 46%;
+    background-color: #63627a;
+}
+.sahil{
+    margin-top: 30px;
+    font-size: 50px;
+    color: #fff;
+    font-family: 'The Nautigal', cursive;
+}
